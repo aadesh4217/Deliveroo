@@ -47,7 +47,6 @@ const HomeScreen = () => {
         setFeaturedCategories(result);
       });
   }, []);
-  // console.log(featuredCategories);
   return (
     <SafeAreaView className="bg-white pt-5">
       <View>

@@ -32,7 +32,7 @@ const FeaturedRow = ({ title, description, id }) => {
     fetch(URL)
       .then((res) => res.json())
       .then(({ result }) => {
-        console.log(result.restaurants);
+  
         setRestaurants(result.restaurants);
       });
   }, []);
